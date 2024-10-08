@@ -1,0 +1,51 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #ccc;
+  
+    .brand {
+      flex: 1;
+      h2 {
+        font-size: 1.8rem;
+        margin: 0;
+        color: #333;
+        text-align: left;  // Título a la izquierda
+      }
+    }
+  
+    ul {
+      list-style-type: none;
+      display: flex;
+      flex: 2;
+      justify-content: center;  // Centrar los elementos del menú
+      margin: 0;
+      padding: 0;
+  
+      li {
+        margin: 0 1rem;
+        font-size: 1.2rem;
+        color: #555;
+        cursor: pointer;
+  
+        &:hover {
+          color: #000; // Cambia el color cuando se pasa el mouse
+        }
+      }
+    }
+  
+    div {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;  // Carrito a la derecha
+      align-items: center;
+  
+      svg {
+        font-size: 1.5rem;
+        color: #333;
+      }
+    }
+  }
+  p{color: #333;}
